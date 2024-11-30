@@ -1,0 +1,14 @@
+[0;1;32m●[0m redis-server.service - Advanced key-value store
+     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Thu 2024-10-03 16:49:49 IST; 3 days ago
+       Docs: http://redis.io/documentation,
+             man:redis-server(1)
+   Main PID: 868142 (redis-server)
+     Status: "Ready to accept connections"
+      Tasks: 6 (limit: 9302)
+     Memory: 3.7M
+     CGroup: /system.slice/redis-server.service
+             └─868142 /usr/bin/redis-server 127.0.0.1:9090
+
+Oct 03 16:49:48 speroit systemd[1]: Starting Advanced key-value store...
+Oct 03 16:49:49 speroit systemd[1]: Started Advanced key-value store.
